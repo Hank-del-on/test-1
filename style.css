@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.block {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+}
+
+.container {
+  border-radius: 202px;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f4d04e;
+  background-position: center;
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.card {
+  background-color: beige;
+  border-radius: 20px;
+  box-shadow: 12px 14px 10px 0 rgba(0, 0, 0, 1);
+
+  width: 26%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: left;
+  flex-direction: column;
+  align-content: center;
+}
+
+.card:hover {
+  box-shadow: 12px 12px 12px 0 rgba(0, 0, 0, 2);
+}
+
+.container {
+  padding: 2px 16px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: normal;
+  text-align: left;
+  flex-direction: column;
+  align-content: center;
+}
+
+--------------------- .image-illustrator {
+  border-radius: 20px;
+  padding: 2px 16px;
+  height: 100vh;
+  min-height: 100vh;
+}
+--------------------------------------------------------------
+  -------------------------------------------
+  .hero-btn {
+  padding: 1rem 2rem;
+  background-color: rgb(241, 246, 104);
+  color: rgb(251, 246, 111);
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.section1 {
+}
+
+.narrowwide {
+  width: var(--length-two);
+  height: var(--length-two);
+}
+
+.narrowtall {
+  height: var(--lenght-one);
+  width: var(--length-two);
+}
+
+.greg {
+  height: 100vh;
+  min-height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .text-box h1 {
+    font-size: 20px;
+  }
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
+}
